@@ -7,5 +7,17 @@ import SearchBar from './SearchBar'
 import SearchMenufacturer from './SearchMenufacturer'
 import CarCard from './CarCard'
 import CarDetails from './CarDetails'
+import ShowMore from './ShowMore'
 
-export { Hero, CustomButton, Navbar, Footer, CustomFilter, SearchBar, SearchMenufacturer, CarCard, CarDetails }
+export {
+  Hero,
+  CustomButton,
+  Navbar,
+  Footer,
+  CustomFilter,
+  SearchBar,
+  SearchMenufacturer,
+  CarCard,
+  CarDetails,
+  ShowMore,
+}
