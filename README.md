@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Cars Showcase Web Project
 
-## Getting Started
+This is AutoVerse! A Cars Showcase web project developed using React, NextJS 14, Typescript, and Tailwind CSS. The website aims to provide an immersive experience for users interested in exploring various car models.
 
-First, run the development server:
+## Quick Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![gif](https://github.com/AndriySt92/nextjs_cars_showcase/assets/62464039/49425bba-bcc0-4d89-a5e1-0d60d78f0db7)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Hero Section**: The website features a visually stunning hero section that immediately grabs the attention of visitors, showcasing the most captivating cars in a captivating manner.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. **Car Catalogue**: The project includes a comprehensive car catalogue where users can browse through a wide range of car models. The catalogue allows users to filter cars based on various criteria, including maker, model, fuel type, and year.
 
-## Learn More
+3. **Filtering Functionality**: Users can conveniently filter the car catalogue by selecting specific options for makers, models, fuel types, and years. This enables them to narrow down their search and find the exact car they are looking for.
 
-To learn more about Next.js, take a look at the following resources:
+4. **Car Details**: Clicking on a car card in the catalogue provides users with more detailed information about the selected car. Users can explore the manufacturer's details and view pictures of the car from different angles, gaining a comprehensive understanding of its design and features.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **React**: The project is built using the React library, which provides a robust foundation for developing interactive user interfaces.
 
-## Deploy on Vercel
+- **NextJS 14**: NextJS, a popular React framework, is employed to enhance the project's performance, scalability, and SEO capabilities.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Typescript**: The use of TypeScript ensures the project's codebase is strongly typed, leading to improved maintainability and fewer runtime errors.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Tailwind CSS**: The project utilizes Tailwind CSS, a utility-first CSS framework, to facilitate rapid UI development and enable responsive and visually appealing designs.
+
+## Installation
+
+To set up the project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+
+2. Install the dependencies:
+
+   ```bash 
+   cd your-repo
+   npm install
+
+3. Start the development server:
+    ```bash
+   npm run dev
+   
+This command will launch the project on a local development server.
