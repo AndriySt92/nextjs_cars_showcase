@@ -49,21 +49,16 @@ const SearchBar = () => {
 
     const newPathname = `${window.location.pathname}?${searchParams.toString()}`
 
-    {
-      /*fix bug reload page. According to documentation
-      router.push('/?counter=10', undefined, { shallow: true }),
-      but it doesn't work */
-    }
-    router.push(newPathname)
+    router.push(newPathname, { scroll: false })
   }
 
   return (
-    <form className="searchbar my-10" onSubmit={handleSearch}>
+    <form className="searchbar" onSubmit={handleSearch}>
       <div className="searchbar__item">
         <SearchMenufacturer menufacturer={menufacturer} setMenufacturer={setMenufacturer} />
         <SearchButton otherClasses="sm:hidden" />
       </div>
-      <div className="searchbar__item">
+      <div className="searchbar__item ml-2">
         <Image
           src="/model-icon.png"
           width={25}
